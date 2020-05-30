@@ -1,3 +1,3 @@
-# Scala_Assignment_1
+# Scala_Assignments
 Index number : 18000657
 Name : H.D.L.M.Hiripitiya
