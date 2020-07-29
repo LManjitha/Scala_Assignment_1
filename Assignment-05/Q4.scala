@@ -1,9 +1,9 @@
 object Q4 extends App{
 
-  var a1=new accounts("1",111,1000)
-  var a2=new accounts("2",222,1500)
-  var a3=new accounts("3",333,2000)
-  var a4=new accounts("4",444,500)
+  var a1=new accounts("983101664V",111,1000)
+  var a2=new accounts("983151898V",222,1500)
+  var a3=new accounts("983184565V",333,2000)
+  var a4=new accounts("98144546V",444,500)
   var bank = List(a1,a2,a3,a4)
 
   a4.transfer(a3,800)
