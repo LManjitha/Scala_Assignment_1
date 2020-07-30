@@ -18,8 +18,8 @@ object Q4 extends App{
   println(sum(bank).balance)
 
   //interest
-  var inter=(l:List[accounts])=>l.filter(x=>x.balance>0).map(x=>x.balance*1005/1000)
-  var over_in=(l:List[accounts])=>l.filter(x=>x.balance<0).map(x=>x.balance*1010/1000)
+  var inter=(l:List[accounts])=>l.filter(x=>x.balance>0).map(x=>x.balance*1.05)
+  var over_in=(l:List[accounts])=>l.filter(x=>x.balance<0).map(x=>x.balance*1.1)
   println(inter(bank))
   println(over_in(bank))
 
